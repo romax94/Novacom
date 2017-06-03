@@ -1,0 +1,107 @@
+[
+    {
+        "id": 1,
+        "title": "Apple iPhone 7",
+        "model": "iPhone 7",
+        "price": "750",
+        "img": "https://content2.onliner.by/catalog/device/header/f8d7fac0fe59ead77f5199454a6e8c4a.jpeg"
+    },
+    {
+        "id": 2,
+        "title": "Samsung Galaxy S8",
+        "model": "Galaxy S8",
+        "price": "800",
+        "img": "https://content2.onliner.by/catalog/device/header/95e7e0c08bdbd3b1d9ba04d2938ae0ad.jpeg"
+    },
+    {
+        "id": 3,
+        "title": "Xiaomi Redmi Note",
+        "model": "Redmi Note",
+        "price": "200",
+        "img": "https://content2.onliner.by/catalog/device/header/34920f060b4fd8e8b9569f8c0723b747.jpeg"
+    },
+    {
+        "id": 4,
+        "title": "Nokia 3310",
+        "model": "3310",
+        "price": "60",
+        "img": "https://content2.onliner.by/catalog/device/header/d31d4312180ee581b2fbae7fe75b8241.jpeg"
+    },
+    {
+        "id": 5,
+        "title": "Apple iPhone 6",
+        "model": "iPhone 6",
+        "price": "500",
+        "img": "https://content2.onliner.by/catalog/device/header/5c89a202887278d66e83e9ea119a537d.jpg"
+    },
+    {
+        "id": 6,
+        "title": "Samsung Galaxy A5",
+        "model": "Galaxy A5",
+        "price": "400",
+        "img": "https://content2.onliner.by/catalog/device/header/92b8b0d7a5a9b36d18a228d3555b9c0f.jpeg"
+    },
+    {
+        "id": 7,
+        "title": "Samsung Galaxy S7 Edge",
+        "model": "Galaxy S7 Edge",
+        "price": "600",
+        "img": "https://content2.onliner.by/catalog/device/header/8e411fc476c482c2bb4012062967998e.jpg"
+    },
+    {
+        "id": 8,
+        "title": "Xiaomi Mi 6",
+        "model": "Mi 6",
+        "price": "600",
+        "img": "https://content2.onliner.by/catalog/device/header/02f62a30b9dca4febc5a38b8833ab292.jpeg"
+    },
+    {
+        "id": 9,
+        "title": "MEIZU M3 Note",
+        "model": "M3 Note",
+        "price": "160",
+        "img": "https://content2.onliner.by/catalog/device/header/77aa2a459c9048a8157013c34d869aec.jpg"
+    },
+    {
+        "id": 10,
+        "title": "Huawei P9 Lite",
+        "model": "P9 Lite",
+        "price": "230",
+        "img": "https://content2.onliner.by/catalog/device/header/2d21bf9485bd7da0cb774c2da921ab1a.jpg"
+    },
+    {
+        "id": 11,
+        "title": "Apple iPhone SE",
+        "model": "iPhone SE",
+        "price": "450",
+        "img": "https://content2.onliner.by/catalog/device/header/5d671d8e06ea95f82b267c6f43e31d5a.jpg"
+    },
+    {
+        "id": 12,
+        "title": "Samsung Galaxy A3",
+        "model": "Galaxy A3",
+        "price": "230",
+        "img": "https://content2.onliner.by/catalog/device/header/19919081901e796b256c42bebcde8ce0.jpg"
+    },
+    {
+        "id": 13,
+        "title": "MEIZU M5 Note",
+        "model": "M5 Note",
+        "price": "190",
+        "img": "https://content2.onliner.by/catalog/device/header/4aae2eeb325d474221bf7b58b71b7c9a.jpeg"
+    },
+    {
+        "id": 14,
+        "title": "Lenovo P70-A",
+        "model": "P70-A",
+        "price": "180",
+        "img": "https://content2.onliner.by/catalog/device/header/a7790684d7992e35f65459bec0227a65.jpeg"
+    },
+    {
+        "id": 15,
+        "title": "Lenovo Vibe K5 Plus",
+        "model": "Vibe K5 Plus",
+        "price": "140",
+        "img": "https://content2.onliner.by/catalog/device/header/ac2ca3f6377d0f46a6f63232ed80b9fa.jpg"
+    }
+]
