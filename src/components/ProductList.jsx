@@ -3,14 +3,14 @@ import Product from '../containers/Product';
 
 const ProductList = ({ products }) => {
     return (
-        <div>
-            <ul>
+        <div className="app_product_list">
+            <div className="row">
                 {products.map(item =>
-                    <li key={item.id}>
+                    <div className="col-md-6" key={item.id}>
                         <Product {...item} />
-                    </li>
+                    </div>
                 )}
-            </ul>
+            </div>
         </div>
     );
 }

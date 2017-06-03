@@ -6,3 +6,10 @@ export const addToCart = productId => {
         }
     };
 };
+
+export const onSearchProduct = value => {
+    return {
+        type: 'SEARCH',
+        payload: value
+    }
+};

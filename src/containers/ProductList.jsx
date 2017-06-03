@@ -3,7 +3,7 @@ import ProductList from '../components/ProductList';
 
 const mapStateToProps = state => {
     return {
-        products: state.reducer.products
+        products: state.reducer.products.filter(item => item.title.toLowerCase().includes(state.reducer.searchInput.toLowerCase()))
     }
 };
 

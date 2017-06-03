@@ -4,7 +4,7 @@ import { addToCart } from '../actions';
 
 const mapDispatchToProps = dispatch => {
     return {
-        addToCart: (id) => dispatch(addToCart(id))
+        addToCart: id => dispatch(addToCart(id))
     };
 };
 
