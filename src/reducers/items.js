@@ -1,5 +1,5 @@
 import products from '../api/data.json';
-import { ADD_TO_CART, SEARCH } from '../constants/actionTypes'; 
+import { ADD_TO_CART, REMOVE_ITEM, SEARCH } from '../constants/actionTypes'; 
 
 let initialState = {
     products,
@@ -13,6 +13,11 @@ export const reducer = (state = initialState, action) => {
             return {
                 ...state,
                 cartProducts: [...state.cartProducts, action.payload.productId]
+            }
+        case REMOVE_ITEM:
+            return {
+                ...state,
+                cartProducts: state.cartProducts.filter(id => id !== action.payload.productId)
             }
         case SEARCH:
             return {

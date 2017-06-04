@@ -42,7 +42,6 @@ body {
 
 /* header */
 .header {
-    padding: 10px 0;
     background: #482583;
 }
 .header_wrapper {
@@ -50,6 +49,7 @@ body {
     justify-content: space-between;
 }
 .header_logo {
+    padding-top: 5px;
     text-transform: uppercase;
     text-decoration: none;
     font-size: 32px;
@@ -59,6 +59,95 @@ body {
 .header_logo:hover {
     text-decoration: none;
     color: #fff;
+}
+.header_cart {
+    position: relative;
+}
+.header_cart_list {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+    background: #fff;
+    z-index: 99;
+}
+.visible_list {
+    display: block !important;
+}
+.header_cart_title {
+    position: relative;
+    width: 70px;
+    height: 60px;
+    padding-top: 13px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+.header_cart_title:hover {
+    background: #9987C3;
+}
+.header_cart_count {
+    position: absolute;
+    top: 9px;
+    right: -9px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #FAEA18;
+    color: #000;
+    font-size: 15px;
+    font-weight: bold;
+}
+.cart_item {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 270px;
+    padding: 5px 10px;
+    padding-left: 20px;
+}
+.cart_remove {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.cart_remove:after,
+.cart_remove:before {
+    content: '';
+    position: absolute;
+    left: 8px;
+    top: 2px;
+    width: 3px;
+    height: 20px;
+    background: #000;
+}
+.cart_remove:after {
+    transform: rotate(45deg)
+}
+.cart_remove:before {
+    transform: rotate(-45deg)
+}
+.cart_item_img {
+    width: 25px;
+}
+.cart_item_title,
+.cart_item_img {
+    display: inline-block;
+    vertical-align: top;
+}
+.cart_item_price {
+    font-size: 14px;
+    font-weight: bold;
+}
+.cart_item_title {
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 5px;
 }
 
 /* search */

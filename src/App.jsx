@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import Header from './components/Header';
 import Search from './containers/Search';
 import ProductList from './containers/ProductList';
-import Cart from './containers/Cart';
 import Footer from './components/Footer';
 
 export default class APP extends Component {
@@ -26,8 +25,7 @@ export default class APP extends Component {
 					</main>
 				</div>
 				<Footer />
-				<Cart />
 			</div>
-		)
+		);
 	}
 }

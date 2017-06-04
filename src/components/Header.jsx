@@ -1,4 +1,5 @@
 import React from 'react';
+import Cart from '../containers/Cart';
 
 const Header = () => {
     return (
@@ -6,8 +7,8 @@ const Header = () => {
             <div className="container">
                 <div className="header_wrapper">
                     <a href="" className="header_logo">Online Store</a>
-                    <div>
-                        <p>Cart</p>
+                    <div className="header_cart">
+                        <Cart />
                     </div>
                 </div>
             </div>
