@@ -8,4 +8,8 @@
 ## Getting started
 ```
 npm install
+<<<<<<< HEAD
 npm start
+=======
+npm start
+>>>>>>> d109974d0d57972fbd39d065096d4aca09af98c3
