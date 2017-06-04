@@ -14,7 +14,7 @@ export default class Cart extends Component {
         });
     }
     render() {
-        const { items } = this.props;
+        const { items, total } = this.props;
         return (
             <div>
                 <div className="header_cart_title" onClick={this.openCartList.bind(this)}>
@@ -26,6 +26,12 @@ export default class Cart extends Component {
                         <li key={item.id}>
                             <CartItem { ...item } />
                         </li>
+                    )}
+                    {items.length === 0 && (
+                        <div className="cart_empty">Cart is empty</div>
+                    )}
+                    {items.length > 0 && (
+                        <div className="cart_total">{total}$</div>
                     )}
                 </ul>
             </div>
