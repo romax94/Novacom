@@ -1,4 +1,5 @@
-#React-Shop-Cart
+# React-Shop-Cart
+Shop Cart with search input, basket of goods.
 
 ## Technologies:
 
